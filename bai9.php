@@ -1,8 +1,18 @@
 <?php
+//Cach1
+// $name = array(
+//     'firstname' => 'Trần Tấn',
+//     'lastname' => 'Hiếu'
+// );
+// $fullname = implode(' ', $name);
+// echo $fullname;
+//Cach2
 $name = array(
     'firstname' => 'Trần Tấn',
-    'lastname' => 'Hiếu'
+    'lastname' =>  ' Hiếu'
 );
-$fullname = implode(' ', $name);
-echo $fullname;
+
+echo join($name);
+
+
 ?>
